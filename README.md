@@ -86,12 +86,9 @@ navToggle.addEventListener('click', () => {
 });
 ```
 
-🎥 For a more detailed tutorial, I've created a short video where I walk you through each step and explain the code in detail. Check it out here: [insert video link]
 
 I hope you find this tutorial helpful in creating a responsive navigation bar for your projects. Feel free to ask questions or share your results in the comments below. Happy coding! 💻✨
 
-#frontenddevelopment #webdevelopment #HTML #CSS #JavaScript #tutorial
+
 
 ---
-
-Remember to replace [insert video link] with the actual link to your tutorial video. Make sure to format the code snippets properly and include any necessary additional styles or modifications. This will help make your LinkedIn post more engaging and informative. Good luck!
