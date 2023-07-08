@@ -1,6 +1,6 @@
 Certainly! Here's an example of the LinkedIn post with the CSS and JavaScript code included:
 
----
+#This code will create a 3D rotating cube with a black background. You can customize the size, colors, and animation properties to fit your needs.
 
 📚 Tutorial: Creating a Responsive Navigation Bar with CSS and JavaScript 🌐
 
