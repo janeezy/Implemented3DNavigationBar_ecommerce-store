@@ -1,0 +1,98 @@
+.navbar {
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+}
+
+.nav-item {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 15px;
+	padding: 5px 10px;
+	transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+	background-color: #555;
+}
+
+#content {
+	margin-top: 60px;
+	padding: 20px;
+}
+
+/* Add 3D animation styles */
+.navbar {
+	perspective: 800px;
+}
+
+.nav-item {
+	transform-style: preserve-3d;
+	transition: transform 0.3s;
+}
+
+.nav-item:hover {
+	transform: rotateX(45deg) translateY(-5px);
+}
+
+/* Your existing CSS styles */
+
+.product-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product {
+	display: flex;
+	margin: 20px;
+	perspective: 800px;
+}
+
+.product .product-img {
+	margin-right: 20px;
+	transform-style: preserve-3d;
+	transition: transform 0.3s;
+}
+
+.product:hover .product-img {
+	transform: rotateY(30deg);
+}
+
+.product-img img {
+	width: 200px;
+	height: 200px;
+}
+
+.product-info {
+	flex-grow: 1;
+}
+
+.product h2 {
+	margin: 10px 0;
+}
+
+.product p {
+	margin: 5px 0;
+}
+
+.product a {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
+
+.product a:hover {
+	background-color: #555;
+}
